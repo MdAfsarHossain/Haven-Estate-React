@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Seaside Luxury Hotel",
+    "segment_name": "Hotels",
+    "description": "Located right on the beautiful coastline, this luxury hotel offers an incredible view of the ocean. Featuring 100 rooms, a rooftop restaurant, and a spa, this hotel is designed for relaxation and comfort. Each room has a private balcony, free Wi-Fi, and 24-hour room service. The hotel also includes a large swimming pool, gym, and business center for corporate meetings.",
+    "price": 5000000,
+    "status": "sale",
+    "area": "15000 sq ft",
+    "location": "Miami Beach, Florida",
+    "facilities": [
+      "Living room",
+      "Swimming pool",
+      "Gym",
+      "Spa",
+      "Rooftop restaurant"
+    ],
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "estate_title": "Downtown City Motel",
+    "segment_name": "Motels",
+    "description": "Conveniently located in the heart of the city, this motel offers affordable stays for travelers. With 40 rooms, free parking, and complimentary breakfast, guests can enjoy comfort without breaking the bank. Each room is air-conditioned with Wi-Fi access and cable TV. There’s also a 24-hour front desk and a small café on-site.",
+    "price": 1500000,
+    "status": "sale",
+    "area": "5000 sq ft",
+    "location": "New York City, New York",
+    "facilities": ["Free parking", "Wi-Fi", "Breakfast", "Air conditioning"],
+    "image": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "estate_title": "Mountain View Resort",
+    "segment_name": "Resorts",
+    "description": "This resort is nestled in the mountains and offers breathtaking views of the natural landscape. With 50 cottages, each equipped with modern amenities and a private terrace, guests can enjoy the best of both worlds: luxury and nature. The resort features a large swimming pool, a restaurant, and outdoor activities like hiking and mountain biking.",
+    "price": 7000000,
+    "status": "sale",
+    "area": "20000 sq ft",
+    "location": "Aspen, Colorado",
+    "facilities": [
+      "Swimming pool",
+      "Restaurant",
+      "Hiking trails",
+      "Outdoor activities"
+    ],
+    "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "estate_title": "Lakeside Vacation Rental",
+    "segment_name": "Vacation Rentals",
+    "description": "Perfect for family vacations, this rental offers a spacious 3-bedroom lake house with a private dock and boat access. Located near several popular fishing spots, it’s a dream destination for nature lovers. The rental comes with a fully equipped kitchen, living room with fireplace, and outdoor BBQ area for evening relaxation.",
+    "price": 2000,
+    "status": "rent",
+    "area": "1800 sq ft",
+    "location": "Lake Tahoe, California",
+    "facilities": [
+      "Living room",
+      "Kitchen",
+      "BBQ area",
+      "Private dock",
+      "Boat access"
+    ],
+    "image": "https://images.unsplash.com/photo-1560184897-ae75f418493e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "estate_title": "Cozy Mountain Lodge",
+    "segment_name": "Lodges",
+    "description": "This cozy mountain lodge provides a rustic experience for visitors looking to escape the city. The property features 15 cabins, each with a fireplace and panoramic mountain views. Guests can enjoy nearby trails, campfires, and stargazing opportunities. The lodge also has a common area with board games, a library, and a snack bar.",
+    "price": 1200000,
+    "status": "sale",
+    "area": "12000 sq ft",
+    "location": "Jackson Hole, Wyoming",
+    "facilities": ["Fireplace", "Hiking trails", "Common area", "Library"],
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "estate_title": "Urban Guesthouse",
+    "segment_name": "Guesthouses",
+    "description": "Located in a quiet urban neighborhood, this guesthouse offers 10 private rooms with attached bathrooms and a shared kitchen. It is an ideal place for travelers who want a homely atmosphere. The guesthouse is close to public transport, restaurants, and local attractions. Each room has a work desk and Wi-Fi, making it perfect for business travelers.",
+    "price": 800,
+    "status": "rent",
+    "area": "3000 sq ft",
+    "location": "Portland, Oregon",
+    "facilities": [
+      "Shared kitchen",
+      "Work desk",
+      "Wi-Fi",
+      "Proximity to public transport"
+    ],
+    "image": "https://images.unsplash.com/photo-1444676632488-26a136c45b9b?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "estate_title": "Countryside Motel",
+    "segment_name": "Motels",
+    "description": "A budget-friendly option for travelers passing through the countryside, this motel features 20 rooms with basic amenities like air conditioning, free parking, and complimentary breakfast. The location offers easy access to nearby highways and is just a short drive from several natural parks.",
+    "price": 900000,
+    "status": "sale",
+    "area": "4000 sq ft",
+    "location": "Amarillo, Texas",
+    "facilities": [
+      "Free parking",
+      "Breakfast",
+      "Air conditioning",
+      "Proximity to highways"
+    ],
+    "image": "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "estate_title": "Beachfront Resort & Spa",
+    "segment_name": "Resorts",
+    "description": "A luxurious beachfront resort with 150 rooms, this property is known for its high-end spa services and fine dining restaurants. Guests can enjoy private beach access, an infinity pool, and multiple water activities like snorkeling and jet skiing. Ideal for romantic getaways or family vacations, this resort provides a tranquil escape with all modern comforts.",
+    "price": 15000,
+    "status": "rent",
+    "area": "25000 sq ft",
+    "location": "Maui, Hawaii",
+    "facilities": [
+      "Infinity pool",
+      "Private beach",
+      "Spa",
+      "Water activities",
+      "Fine dining"
+    ],
+    "image": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 9,
+    "estate_title": "Urban Studio Apartment",
+    "segment_name": "Vacation Rentals",
+    "description": "This chic urban studio apartment is located in the city’s vibrant downtown area. Fully furnished with modern decor, the apartment offers a sleek living space with a kitchen, a cozy sleeping area, and a rooftop terrace. It is perfect for solo travelers or couples looking for a short-term rental in the heart of the city.",
+    "price": 1000,
+    "status": "rent",
+    "area": "600 sq ft",
+    "location": "Los Angeles, California",
+    "facilities": [
+      "Rooftop terrace",
+      "Kitchen",
+      "Wi-Fi",
+      "Proximity to nightlife"
+    ],
+    "image": "https://images.unsplash.com/photo-1592595896551-12b371d546d5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "estate_title": "Country Guesthouse Retreat",
+    "segment_name": "Guesthouses",
+    "description": "A charming countryside guesthouse with 6 rooms, this retreat offers peaceful surroundings and homely comforts. Guests can enjoy a shared kitchen, a large garden with seating areas, and a nearby river for afternoon picnics. The guesthouse is family-friendly and provides a serene atmosphere away from the hustle and bustle of city life.",
+    "price": 500,
+    "status": "rent",
+    "area": "2500 sq ft",
+    "location": "Nashville, Tennessee",
+    "facilities": [
+      "Garden",
+      "Shared kitchen",
+      "Proximity to nature",
+      "Family-friendly"
+    ],
+    "image": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 11,
+    "estate_title": "Mountain Chalet Resort",
+    "segment_name": "Resorts",
+    "description": "This chalet resort is located in a serene mountain area, offering 35 chalets for families and adventure seekers. The resort offers activities such as rock climbing, zip-lining, and skiing during the winter season. Each chalet is fully furnished and comes with a kitchen, fireplace, and private deck overlooking the valley.",
+    "price": 9000,
+    "status": "rent",
+    "area": "10000 sq ft",
+    "location": "Lake Placid, New York",
+    "facilities": [
+      "Skiing",
+      "Kitchen",
+      "Fireplace",
+      "Private deck",
+      "Rock climbing"
+    ],
+    "image": "https://images.unsplash.com/photo-1555636222-cae831e670b3?q=80&w=1477&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 12,
+    "estate_title": "Luxury Penthouse Suite",
+    "segment_name": "Vacation Rentals",
+    "description": "This stunning penthouse suite is situated on the top floor of a luxury high-rise in the heart of the city. With a 360-degree view, the penthouse features two bedrooms, a state-of-the-art kitchen, and a private rooftop pool. Designed with elegance in mind, it offers both comfort and sophistication for the ultimate city living experience.",
+    "price": 5000,
+    "status": "rent",
+    "area": "3000 sq ft",
+    "location": "San Francisco, California",
+    "facilities": [
+      "Rooftop pool",
+      "Private terrace",
+      "Gourmet kitchen",
+      "City views"
+    ],
+    "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
