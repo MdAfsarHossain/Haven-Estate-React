@@ -14,7 +14,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Banner() {
   return (
-    <div className="pt-10 px-10 mb-16">
+    <div className="pt-10 px-5 lg:px-10 mb-16">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
