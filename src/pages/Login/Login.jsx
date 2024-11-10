@@ -39,7 +39,6 @@ const Login = () => {
         e.target.reset();
         navigate(location?.state ? location.state : "/");
         // navigate(from);
-
       })
       .catch((error) => {
         toast.error("You entered wrong email or password. Try Again");
@@ -69,36 +68,37 @@ const Login = () => {
       });
   };
 
-
   const onSubmit = (data) => {
     // console.log(data);
-    const {email, password} = data;
+    const { email, password } = data;
 
     logInUser(email, password)
-    .then((result) => {
-      toast.success("Successfully logged in!");
-      navigate(location?.state? location.state : "/");
-    })
-    .catch(error => {
-      toast.error("You are entering wrong email or password. Please try again!");
-    })
+      .then((result) => {
+        toast.success("Successfully logged in!");
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((error) => {
+        toast.error(
+          "You are entering wrong email or password. Please try again!"
+        );
+      });
   };
 
   return (
-    <div className="py-2 px-10 flex flex-row justify-center border-0 border-red-400 gap-16">
+    <div className="py-2 px-8 md:px-36 lg:px-10 flex flex-row justify-center border-0 border-red-400 lg:gap-16">
       <Helmet>
         <title>Haven Estate | Login</title>
       </Helmet>
 
-      <div className="border-0">
+      <div className="border-0 hidden lg:block">
         <Lottie
           className="w-[500px]"
           lottieRef={loginAnimation}
           animationData={loginLottie}
         />
       </div>
-      <div className="border-0 mt-8">
-        <div className="w-full max-w-md px-8  py-5 space-y-3 rounded-xl shadow-xl">
+      <div className="border-0 mt-8 w-full md:w-auto">
+        <div className="w-full px-8  py-5 space-y-3 rounded-xl shadow-xl">
           <h1 className="text-2xl font-bold text-center">Login</h1>
 
           {/* <form onSubmit={handleLogin} className="space-y-4"> */}
