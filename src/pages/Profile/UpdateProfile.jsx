@@ -31,12 +31,11 @@ const UpdateProfile = () => {
   };
 
   return (
-    <div className="py-5 px-10 flex flex-row justify-center border-0 border-red-400 gap-5">
-      
+    <div className="py-5 px-5 lg:px-10 flex flex-row justify-center border-0 border-red-400 gap-5">
       <Helmet>
         <title>Haven Estate | Update Profile</title>
       </Helmet>
-      <div className="border-0 lg:flex-1 flex justify-center items-center text-center">
+      <div className="border-0 hidden lg:flex-1 lg:flex justify-center items-center text-center">
         <Lottie
           className="w-[450px]"
           lottieRef={loginAnimation}
@@ -44,7 +43,7 @@ const UpdateProfile = () => {
         />
       </div>
 
-      <div className="border-0 mt-8 lg:flex-1">
+      <div className="border-0 w-full lg:w-auto mt-8 lg:flex-1">
         <div className="w-full max-w-md px-8  py-10 space-y-3 rounded-xl shadow-xl border-t-2">
           <h1 className="text-2xl font-bold text-center">Update Profile</h1>
 
