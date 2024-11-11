@@ -24,13 +24,13 @@ const EstateDetail = () => {
   // console.log(singleEstate);
 
   return (
-    <div className="pt-14 ml-20 mr-20 mx-auto">
+    <div className="pt-14 px-5 lg:px-0 lg:ml-20 lg:mr-20 mx-auto">
       <Helmet>
         <title>Haven Estate | Estate Detials</title>
       </Helmet>
 
       {/* EState Summary */}
-      <div className="mb-20 px-10 shadow-lg shadow-slate-400 py-5 rounded-lg flex flex-row justify-between items-center">
+      <div className="mb-20 px-5 lg:px-10 shadow-lg shadow-slate-400 py-5 rounded-lg flex flex-col lg:flex-row gap-5 justify-between lg:items-center">
         {/* Estate Details */}
         <div className="">
           {/* Title */}
@@ -43,7 +43,7 @@ const EstateDetail = () => {
             </div>
           </div>
 
-          <div className="mt-4 flex flex-row gap-16">
+          <div className="mt-4 flex flex-col lg:flex-row gap-3 lg:gap-16">
             {/* Location */}
             <div className="">
               <h1 className="font-bold text-xl">Location</h1>
@@ -65,8 +65,8 @@ const EstateDetail = () => {
         </div>
 
         {/* Estate Price */}
-        <div className="">
-          <h1 className="font-bold text-6xl">${price}</h1>
+        <div className="text-start">
+          <h1 className="font-bold text-3xl lg:text-6xl">${price}</h1>
         </div>
       </div>
 
@@ -89,7 +89,7 @@ const EstateDetail = () => {
 
         {/* Table */}
         <div className="overflow-x-auto">
-          <table className="table w-[550px] ">
+          <table className="table md:w-[550px] ">
             {/* <!-- head --> */}
             <thead>
               <tr className="bg-base-200 font-bold text-xl">
@@ -134,10 +134,10 @@ const EstateDetail = () => {
         <div className="border-[1px] border-gray-300 mb-5"></div>
 
         {/* List */}
-        <div className="flex flex-row gap-5">
-          {facilities?.map((facility,idx) => (
+        <div className="flex flex-col md:flex-row gap-5">
+          {facilities?.map((facility, idx) => (
             <p
-              className="bg-yellow-400 px-3 rounded font-bold py-1"
+              className="bg-yellow-400 px-3 rounded font-bold py-1 w-fit"
               key={idx}
             >
               {facility}
@@ -151,11 +151,14 @@ const EstateDetail = () => {
         <h1 className="font-bold text-4xl mb-3">Location on Map</h1>
         <div className="border-[1px] border-gray-300 mb-5"></div>
         {/* Map */}
-        <div className="h-[400px] w-full">{/* Map Content */}
-            <p className="font-bold text-xl text-center mt-20
-            ">Comming Soon.....</p>
-
-
+        <div className="h-[400px] w-full">
+          {/* Map Content */}
+          <p
+            className="font-bold text-xl text-center mt-20
+            "
+          >
+            Comming Soon.....
+          </p>
         </div>
       </div>
     </div>
