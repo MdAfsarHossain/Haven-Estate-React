@@ -14,7 +14,7 @@ const Property = () => {
 
   return (
     <div className="">
-      <div className="pt-10 px-10 mb-28">
+      <div className="pt-5 lg:pt-10 lg:px-10 mb-28">
         <div className="text-center py-10">
           <h1 className="font-bold text-4xl uppercase">Properties</h1>
           <div className="h-1 bg-gray-600 w-24 mt-2 mx-auto"></div>
