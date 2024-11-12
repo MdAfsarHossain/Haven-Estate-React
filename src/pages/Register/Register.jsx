@@ -30,7 +30,6 @@ const Register = () => {
 
   const passwordRegex = /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}/;
 
-
   const registerUser = (e) => {
     e.preventDefault();
 
@@ -94,12 +93,11 @@ const Register = () => {
       });
   };
 
-
   const onSubmit = (data) => {
-    const {userName, email, password, photoUrl} = data;
+    const { userName, email, password, photoUrl } = data;
     console.log(`onSubmit ${userName} ${email} ${password} ${photoUrl}`);
 
-    if(!passwordRegex.test(password)) {
+    if (!passwordRegex.test(password)) {
       toast.error(
         "Password must contain at least 6 characters, including at least one uppercase letter and one lowercase letter."
       );
@@ -111,18 +109,16 @@ const Register = () => {
     //   return;
     // }
 
-
     createUserWithEmailPassword(email, password)
       .then((result) => {
         console.log("User registration successfully", result.user);
         // e.target.reset();
 
         // Update profile with user's name and photo URL
-        updateUserProfile(userName, photoUrl)
-          .then((result) => {
-            toast.success("Registration successfully");
-            navigate('/profile');
-          })
+        updateUserProfile(userName, photoUrl).then((result) => {
+          toast.success("Registration successfully");
+          navigate("/profile");
+        });
         //   .catch((error) => {
         //     toast.error("Profile update failed");
         //   });
@@ -135,13 +131,13 @@ const Register = () => {
   };
 
   return (
-    <div className="py-0 pb-8 px-10 flex flex-row justify-center border-0 border-red-400 shadow-xl">
+    <div className="py-0 pb-8 px-8 md:px-36 lg:px-10 flex flex-row justify-center border-0 border-red-400 shadow-xl">
       <Helmet>
         <title>Haven Estate | Register</title>
       </Helmet>
 
-      <div className="border-0 mt-8">
-        <div className="w-full max-w-md px-8  py-5 space-y-3 rounded-xl shadow-xl">
+      <div className="border-0 w-full mx-auto lg:w-auto mt-8">
+        <div className="w-full px-8  py-5 space-y-3 rounded-xl shadow-xl">
           <h1 className="text-2xl font-bold text-center">Registration</h1>
           {/* <form onSubmit={registerUser} noValidate="" className="space-y-4"> */}
           <form
@@ -289,7 +285,7 @@ const Register = () => {
         </div>
       </div>
 
-      <div className="border-0 w-[550px]">
+      <div className="border-0 w-[550px] hidden lg:block">
         <Lottie
           lottieRef={registrationAnimation}
           animationData={registrationLottie}
