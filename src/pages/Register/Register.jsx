@@ -49,7 +49,7 @@ const Register = () => {
 
     createUserWithEmailPassword(email, password)
       .then((result) => {
-        console.log("User registration successfully");
+        // console.log("User registration successfully");
         e.target.reset();
 
         // Update profile with user's name and photo URL
@@ -76,7 +76,7 @@ const Register = () => {
         navigate("/");
       })
       .catch((error) => {
-        console.error("Google registration failed!!", error);
+        // console.error("Google registration failed!!", error);
         alert("Google registration failed!!");
       });
   };
@@ -95,7 +95,7 @@ const Register = () => {
 
   const onSubmit = (data) => {
     const { userName, email, password, photoUrl } = data;
-    console.log(`onSubmit ${userName} ${email} ${password} ${photoUrl}`);
+    // console.log(`onSubmit ${userName} ${email} ${password} ${photoUrl}`);
 
     if (!passwordRegex.test(password)) {
       toast.error(
@@ -111,7 +111,7 @@ const Register = () => {
 
     createUserWithEmailPassword(email, password)
       .then((result) => {
-        console.log("User registration successfully", result.user);
+        // console.log("User registration successfully", result.user);
         // e.target.reset();
 
         // Update profile with user's name and photo URL
